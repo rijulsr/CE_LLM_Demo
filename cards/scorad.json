@@ -1,0 +1,21 @@
+{
+  "card_id": "range/scorad:v1",
+  "ranges": {
+    "extent_bsa_pct": [
+      0,
+      100
+    ],
+    "intensity_item": [
+      0,
+      3
+    ],
+    "subjective_vas": [
+      0,
+      10
+    ],
+    "scorad_total": [
+      0,
+      103
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "card_id": "abbr/dermatology:core:v1",
+  "map": {
+    "hx": "history",
+    "h/o": "history of",
+    "c/o": "complains of",
+    "s/o": "suggestive of",
+    "od": "QD",
+    "bd": "BID",
+    "tid": "TID",
+    "tds": "TID",
+    "qid": "QID",
+    "prn": "as needed",
+    "po": "by mouth",
+    "iv": "intravenous",
+    "im": "intramuscular",
+    "sc": "subcutaneous",
+    "inh": "inhalation",
+    "top": "topical",
+    "rx": "treatment",
+    "tab": "tablet",
+    "cap": "capsule",
+    "oint": "ointment",
+    "crm": "cream",
+    "lotn": "lotion",
+    "syp": "syrup"
+  }
+}

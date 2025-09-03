@@ -1,0 +1,30 @@
+{
+  "card_id": "policy/notation:v1",
+  "frequency_map": {
+    "od": "QD",
+    "qd": "QD",
+    "bd": "BID",
+    "bid": "BID",
+    "tds": "TID",
+    "tid": "TID",
+    "qid": "QID",
+    "hs": "QHS",
+    "qhs": "QHS",
+    "prn": "PRN"
+  },
+  "route_map": {
+    "po": "PO",
+    "oral": "PO",
+    "iv": "IV",
+    "im": "IM",
+    "sc": "SC",
+    "subcut": "SC",
+    "top": "TOPICAL",
+    "topical": "TOPICAL",
+    "inh": "INHALATION",
+    "inhalation": "INHALATION",
+    "nasal": "INTRANASAL"
+  },
+  "dose_pattern": "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mcg|\u00b5g|ug|mg|g|%)\\b(?:\\s*(?:tab|cap|cap\\.|tablet|capsule|cream|ointment|oint|lotion|inhaler))?(?:\\s*(po|iv|im|sc|inh|top|oral))?(?:\\s*(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn))?(?:\\s*x?\\s*(\\d+(?:\\.\\d+)?)\\s*(d|day|days|w|wk|week|weeks|m|mo|month|months))?",
+  "fraction_to_decimal": true
+}

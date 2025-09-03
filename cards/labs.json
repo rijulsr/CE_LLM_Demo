@@ -1,0 +1,61 @@
+{
+  "card_id": "range/labs:v1",
+  "ranges": {
+    "hemoglobin_g_dl": [
+      5,
+      20
+    ],
+    "tlc_per_ul": [
+      1000,
+      30000
+    ],
+    "platelets_per_ul": [
+      50000,
+      1000000
+    ],
+    "esr_mm_hr": [
+      0,
+      150
+    ],
+    "sodium_mmol_l": [
+      100,
+      170
+    ],
+    "potassium_mmol_l": [
+      2,
+      8
+    ],
+    "urea_mg_dl": [
+      5,
+      200
+    ],
+    "creatinine_mg_dl": [
+      0.2,
+      10
+    ],
+    "ast_u_l": [
+      0,
+      500
+    ],
+    "alt_u_l": [
+      0,
+      500
+    ],
+    "serum_bilirubin_mg_dl": [
+      0,
+      30
+    ],
+    "serum_proteins_g_dl": [
+      2,
+      10
+    ],
+    "serum_ige_iu_ml": [
+      0,
+      5000
+    ],
+    "fbs_mg_dl": [
+      40,
+      500
+    ]
+  }
+}
