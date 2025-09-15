@@ -1,0 +1,27 @@
+{
+  "card_id": "policy/units:v1",
+  "ucum_allowed": [
+    "kg",
+    "g",
+    "mg",
+    "mcg",
+    "\u00b5g",
+    "%",
+    "cm",
+    "mmHg",
+    "/uL",
+    "mmol/L",
+    "mg/dL",
+    "U/L",
+    "IU/mL",
+    "g/dL"
+  ],
+  "canonical_unit_map": {
+    "ug": "\u00b5g",
+    "mcg": "\u00b5g",
+    "u/l": "U/L",
+    "iu/ml": "IU/mL",
+    "gms": "g",
+    "kgs": "kg"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "card_id": "lexicon/meds_observed:v1",
+  "note": "Derived from ground truth; canonical names are heuristic and should be validated by clinician. Add ontology codes later (RxNorm/ATC).",
+  "entries": [
+    {
+      "canonical": "Tacrolimus",
+      "class": "Topical calcineurin inhibitor",
+      "variants": [
+        "tacroz"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "tacroz ointment, hydroxyurea syp, ketoconazole | flutivate cream, tacroz 0.03% oint LA, moisturex soft, Syp xyzal 2.5mg/5ml"
+    },
+    {
+      "canonical": "Fluticasone propionate",
+      "class": "Topical corticosteroid",
+      "variants": [
+        "flutivate"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "flutivate cream, tacroz 0.03% oint LA, moisturex soft, Syp xyzal 2.5mg/5ml | fexofenadine, atomus, flutivate"
+    },
+    {
+      "canonical": "Levocetirizine",
+      "class": "Antihistamine",
+      "variants": [
+        "xyzal"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "flutivate cream, tacroz 0.03% oint LA, moisturex soft, Syp xyzal 2.5mg/5ml | At present flutivate cream, olesoft cream, syp xyzal"
+    },
+    {
+      "canonical": "Emollient (liquid paraffin + white soft paraffin)",
+      "class": "Emollient",
+      "variants": [
+        "olesoft"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "flutivate, tacroz, tab teczine, olesoft max lotion | At present flutivate cream, olesoft cream, syp xyzal"
+    },
+    {
+      "canonical": "Mometasone furoate",
+      "class": "Topical corticosteroid",
+      "variants": [
+        "momate"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "Tacrolimuscream, momate cream, nevlon lotion, tab levosiz | momate cream la bd, cutisoft cream la bd,syp xyzol,coconut oil"
+    },
+    {
+      "canonical": "Levocetirizine",
+      "class": "Antihistamine",
+      "variants": [
+        "levosiz"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "Inj Omalizumab(1 dose on 27/7/21), T. Levosiz 5mg(since 6 months), Tacrolimus(since 6 months) | Tacrolimuscream, momate cream, nevlon lotion, tab levosiz"
+    },
+    {
+      "canonical": "Tacrolimus",
+      "class": "Topical calcineurin inhibitor",
+      "variants": [
+        "topgraf"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "cdw Dr S Handa, t. levosiz 5mg 1 taab hs x 4 weeks, momate la bd x 2 weeks, od x 2weeks, sumosone la bd x 2 weeks od x 2 weeks, topgraf 0.1% la od x 2 weeks | cdw Dr handa, atopic dermatitis, tab xyza"
+    },
+    {
+      "canonical": "Permethrin",
+      "class": "Scabicide",
+      "variants": [
+        "permethrin"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "Fluticasone cream+moisturising lotion+Syp Atarax+Calamine lotion+ permethrin lotion+ desonide | antihistamines, permethrin, topicalflutivate cream, tacroz, olesoft,, diprobate"
+    },
+    {
+      "canonical": "Azathioprine",
+      "class": "Immunosuppressant",
+      "variants": [
+        "azoran"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "cdw dr rahul, t. wysolone 15mg od, tab azoran 50mg od, tacroz, cebhydra, t. levosiz m, diprovate rd lotion ra 2 weeks | 16/2/23- erratic followup on azoran 18-20m, 4 m regular according to mother, T.A"
+    },
+    {
+      "canonical": "Mycophenolate mofetil",
+      "class": "Immunosuppressant",
+      "variants": [
+        "mmf"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "currently on syp teczine, mmf lotion,flutivate cream | 1/2/20- MMF 500BD"
+    },
+    {
+      "canonical": "Fusidic acid",
+      "class": "Antibacterial",
+      "variants": [
+        "fusidic"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "currently on hh fusidic cream, olesoft max, oilaturn | fusidic, beclomethasone, fluocort"
+    },
+    {
+      "canonical": "Methotrexate",
+      "class": "Immunosuppressant",
+      "variants": [
+        "methotrexate"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "cdw dr akash plan for methotrexate, t. axoxyclav 625 1/2 tab tds, oilaturn lotion, t. levocetrizine, momate cream, tacroz, pulmo clearance | 24/6/23 lichen planus over whole body, plan to start methot"
+    },
+    {
+      "canonical": "Clotrimazole",
+      "class": "Antifungal",
+      "variants": [
+        "candid"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "No active lesions. Taking MMF 500mg OD. P Versicolor seen.. Olesoft max cream LA TDS, Candid cream LA BD x 2 weeks, T Fluconazole 300mg OD, Stop MMF | 26/03 SCORAD 37, tab augmentin 625mg tds, flutiva"
+    },
+    {
+      "canonical": "Hydroxyurea",
+      "class": "Other",
+      "variants": [
+        "hydroxyurea"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "tacroz ointment, hydroxyurea syp, ketoconazole"
+    },
+    {
+      "canonical": "Methotrexate",
+      "class": "Immunosuppressant",
+      "variants": [
+        "mtx"
+      ],
+      "forms_synonyms": [
+        "tab",
+        "tablet",
+        "cap",
+        "capsule",
+        "syrup",
+        "syp",
+        "cream",
+        "crm",
+        "ointment",
+        "oint",
+        "lotion",
+        "lotn"
+      ],
+      "strength_patterns": [
+        "(?i)\\b(\\d+(?:\\.\\d+)?)\\s*(mg|mcg|\u00b5g|g|%)\\b"
+      ],
+      "freq_route_patterns": [
+        "(?i)\\b(od|qd|bd|bid|tds|tid|qid|hs|qhs|prn)\\b",
+        "(?i)\\b(po|oral|top|oint|crm|inh|iv|im|sc)\\b"
+      ],
+      "example": "28/5/22 38.5, cdw dr dipankar, t. wysolone 20 od, plan mtx"
+    }
+  ]
+}

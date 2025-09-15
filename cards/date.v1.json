@@ -1,0 +1,5 @@
+{
+  "card_id": "policy/date:v1",
+  "normalize": "Use YYYY-MM-DD if possible; accept dd/mm/yy, dd/mm/yyyy, dd-mm-yyyy; 2-digit year pivot 1970..2069.",
+  "missing": "If illegible \u2192 null"
+}
